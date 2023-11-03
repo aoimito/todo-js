@@ -25,7 +25,7 @@ const onClickAdd = () => {
   // completeButton.className = "complete-button";
   completeButton.addEventListener("click", () => {
     alert("完了");
-  });
+    con});
 
   //clickした削除ボタンのliを未完了のTODOから削除
   const deleteButton = document.createElement("button");
